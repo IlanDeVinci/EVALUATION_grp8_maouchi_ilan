@@ -194,9 +194,10 @@ form{
 input{
     font-size: 1rem;
     width: 50%;
+    border-radius: 10px;
 }
 
-img{
+form img{
     width: 50%;
 }
 
@@ -434,6 +435,7 @@ transform: scale(1.1);
     header {
         width: 100%;
         box-shadow:0px 0px 0px 5px rgb(62, 0, 0) inset;
+        font-size: 3vw;
     }
     .desktop{
         display: none;
