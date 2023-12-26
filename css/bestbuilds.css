@@ -188,10 +188,13 @@ nav a:hover{
 
 table{
     margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 td{
     border: 5px solid black;
-    padding: 1%;
+    padding: 2%;
 }
 
 aside{
@@ -229,6 +232,10 @@ aside img{
 
 footer p{
     margin: 2%;
+}
+
+.articlesection img{
+    width: 15vw;
 }
 
 
@@ -300,6 +307,10 @@ transform: scale(1.1);
 
 
 @media screen and (max-width: 800px){
+
+    .articlesection img{
+        width: 25vw;
+    }
     .burger{
         display: flex;
         justify-content:  space-around;
@@ -388,6 +399,7 @@ transform: scale(1.1);
     header {
         width: 100%;
         box-shadow:0px 0px 0px 5px rgb(62, 0, 0) inset;
+        font-size: 3vw;
     }
     .desktop{
         display: none;
